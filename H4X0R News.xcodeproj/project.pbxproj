@@ -15,6 +15,8 @@
 		035496F92421B09700BDA253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035496F72421B09700BDA253 /* LaunchScreen.storyboard */; };
 		035497022421B74E00BDA253 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035497012421B74E00BDA253 /* NetworkManager.swift */; };
 		035497042421B82A00BDA253 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035497032421B82A00BDA253 /* PostData.swift */; };
+		035497062421BD0800BDA253 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035497052421BD0800BDA253 /* DetailView.swift */; };
+		035497082421BF5E00BDA253 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035497072421BF5E00BDA253 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		035496FA2421B09700BDA253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		035497012421B74E00BDA253 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		035497032421B82A00BDA253 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		035497052421BD0800BDA253 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		035497072421BF5E00BDA253 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +68,12 @@
 				035496EC2421B09500BDA253 /* AppDelegate.swift */,
 				035496EE2421B09500BDA253 /* SceneDelegate.swift */,
 				035496F02421B09500BDA253 /* ContentView.swift */,
+				035497052421BD0800BDA253 /* DetailView.swift */,
 				035496F22421B09700BDA253 /* Assets.xcassets */,
 				035496F72421B09700BDA253 /* LaunchScreen.storyboard */,
 				035496FA2421B09700BDA253 /* Info.plist */,
 				035496F42421B09700BDA253 /* Preview Content */,
+				035497072421BF5E00BDA253 /* WebView.swift */,
 			);
 			path = "H4X0R News";
 			sourceTree = "<group>";
@@ -161,10 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				035497042421B82A00BDA253 /* PostData.swift in Sources */,
+				035497062421BD0800BDA253 /* DetailView.swift in Sources */,
 				035497022421B74E00BDA253 /* NetworkManager.swift in Sources */,
 				035496ED2421B09500BDA253 /* AppDelegate.swift in Sources */,
 				035496EF2421B09500BDA253 /* SceneDelegate.swift in Sources */,
 				035496F12421B09500BDA253 /* ContentView.swift in Sources */,
+				035497082421BF5E00BDA253 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
